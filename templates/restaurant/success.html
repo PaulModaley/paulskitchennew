@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+<div>
+  <h1 style="text-align: center;">Your Profile</h1>
+  <div class="container profile-form col-7">
+    <form method="post" action="/accounts/profile/" class="profile">{% csrf_token %}
+  
+  
+  
+      <table class="profile">
+  
+        <label>First Name </label>
+        <input name="firstname" type="text" value="{{ firstname }}" style="width: 100%;"/>
+  
+        <div>
+          <label>Last Name</label><br>
+          <input name="lastname" type="text" value="{{ lastname }}" style="width: 100%;"/>
+        </div>
+        <div>
+          <label>Email</label><br>
+          <input name="email" type="email" value="{{ user.email }}" style="width: 100%;"/>
+        </div>
+        <div class="container d-flex justify-content-center">
+          <button type="submit" class="btn btn-warning text-dark cta" value='Save' style="margin-top: 30px;">Save</button>
+        </div>
+    </form>
+    </table>
+  </div>
+</div>
+
+
+
+
+<div class="container mt-auto fixed-bottom"></div>
+
+
+{% endblock %}
