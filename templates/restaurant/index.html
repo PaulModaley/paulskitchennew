@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+<div class="hero-image">
+  <div class="hero-text">
+
+    <p style="font-size: 55px;">Flame-grilled Perfection</p>
+    <form action="create_booking/" method="post" style="text-decoration: none; color: black;">
+      {% csrf_token %}
+      <button type="submit" class="btn btn-warning text-dark cta" style="background-color: #f0ad4e; font-size: x-large;">Book A Table</button>
+    </form>
+  </div>
+</div>
+
+
+<div class="col-12">
+  <div class="container bg-dark" id="about" style="border-radius: 15px 50px 30px;">
+    <div class="row about-section d-flex justify-content-center">
+      <h2 class="text-warning" style="text-align: center; margin-top: 10px;">About Us</h2>
+    </div>
+    <div class="about-section d-flex justify-content-center p-3 mb-2 text-white">
+      <p>Established in 2021, we are now renowned for the best flame-grilled burgers and meats in Liverpool. Our quality
+        ingredients and quirky flavours, keep our customers coming back for more.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Opening times section -->
+<div class="container bg-dark"
+  style="background-image: url(https://res.cloudinary.com/p-modaley/image/upload/v1642954436/Untitled_design_85_t3bpih.png); margin-bottom: 10px; border-radius: 30px 15px 50px;">
+  <div class="row">
+
+    <div class="col" style="margin: 10px; text-align: center">
+      <h2 class="text-warning">
+        Opening Hours
+      </h2>
+      <p class="text-white">Monday: 11:00 - 22:00</p>
+      <p class="text-white">Tuesday: 11:00 - 22:00</p>
+      <p class="text-white">Wednesday: 11:00 - 22:00</p>
+      <p class="text-white">Thursday: 11:00 - 22:00</p>
+      <p class="text-white">Friday: 11:00 - 23:00</p>
+      <p class="text-white">Saturday: 11:00 - 23:00</p>
+      <p class="text-white">Sunday: 11:00 - 22:00</p>
+    </div>
+    <div class="col" style="margin: 10px;">
+      <h2 class="text-warning" style="text-align: center;">
+        Contact Us
+      </h2>
+      <div style="text-align: center">
+        <p class="text-center w-responsive text-white">Please contact us via the details below.</p>
+        <p class="text-warning">Telephone:</p>
+        <p class="text-white">0151 123 4567</p>
+        <p class="text-warning">Address:</p>
+        <p class="text-white">1 Bold Street, Liverpool</p>
+        <br>
+        <form action="/contact/" method="get">
+          <button class="btn btn-warning btn-lg px-4 gap-3 text-dark cta"
+            style="text-decoration: none; color: black;">Send Us A Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
