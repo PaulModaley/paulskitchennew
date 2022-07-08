@@ -1,29 +1,30 @@
+"""paulskitchen URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/4.0/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
 from django.urls import path
-from . import views
+from django.urls import include
+from django.urls import re_path
+from django.views.static import serve
+from restaurant import views as restaurant_views
+from .settings import STATIC_ROOT
 
 urlpatterns = [
-    path("", views.index),
-    path("contact/", views.contact, name="contact"),
-    path("menu/", views.menu, name="menu"),
-    path("create_booking/", views.create_booking, name="create_booking"),
-    path("about/", views.about, name="about"),
-    path("contact_create/", views.contact_create_view, name="contact_create"),
-    path("manage_bookings/", views.manage_bookings, name="manage_bookings"),
-    path(
-        "confirm_delete_booking/<int:booking_id>",
-        views.confirm_delete_booking,
-        name="confirm_delete_booking",
-    ),
-    path(
-        "delete_booking/<int:booking_id>",
-        views.delete_booking,
-        name="delete_booking",
-    ),
-    path(
-        "edit_booking/<int:booking_id>",
-        views.edit_booking,
-        name="edit_booking",
-    ),
-    path("booking_changed/", views.booking_changed, name="booking_changed"),
-    path("success/", views.success, name="success"),
+    path("", include("restaurant.urls")),
+    path("admin/", admin.site.urls),
+    path("accounts/", include("allauth.urls")),
+    path("accounts/profile/", restaurant_views.profile),
+    re_path(r"^static/(?P<path>.*)$", serve, {"document_root": STATIC_ROOT}),
 ]
