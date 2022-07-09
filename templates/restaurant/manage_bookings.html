@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="heading" style="margin-top: 40px; font-size: 55px;">Manage Your Bookings</h1>
+
+
+
+{% for booking in bookings %}
+<div class="container col-7 booking-form" style="border-style: solid; margin-bottom: 12px;">
+  <table style="margin-left: auto; margin-right: auto; text-align: center;">
+    <tr>
+      <th style="text-align: center; text-decoration: underline;">Booking ID: {{ booking.id }}</th>
+    </tr>
+    <tr>
+      <td>Date: {{ booking.date }}</td>
+    </tr>
+    <tr>
+      <td>Time: {{ booking.time }}</td>
+    </tr>
+    <tr>
+      <td>Guests: {{ booking.guests }}</td>
+    </tr>
+  </table>
+  <div class="my-5"></div>
+  <div class="container d-flex justify-content-center" id="myLinks"><a
+      href="{% url 'delete_booking' booking.id %}" style="text-decoration: none;" id="myLinks">Cancel</a>
+  </div>
+  <div class="container d-flex justify-content-center" id="myLinks"><a href="{% url 'edit_booking' booking.id %}"
+      style="text-decoration: none;" id="myLinks">Edit</a>
+  </div>
+</div>
+
+
+
+{% endfor %}
+
+{% endblock %}
