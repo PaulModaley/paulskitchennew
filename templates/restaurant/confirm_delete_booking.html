@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+<div class="container">
+    <h2>Are you sure you want to cancel this booking?</h1>
+        <form method="POST" action="/delete_booking/{{booking_id}}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-warning text-dark cta">Confirm</button>
+        </form>
+        <div>
+            <!-- Add link to go to manage booking page -->
+            <a><button value='Cancel'>Cancel</a>
+        </div>
+</div>
+
+{% endblock %}
