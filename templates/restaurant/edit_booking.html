@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+
+<h1 style="text-align: center;">Change Your Booking</h1>
+
+
+
+<div class="container col-7 booking-form">
+
+    <form method="POST" action="" class="center-block">
+        {% csrf_token %}
+        <table>
+            <p>Booking For: {{ user.get_username }}</p>
+
+            {{ form.date|as_crispy_field }}
+
+            {{ form.time|as_crispy_field }}
+
+            {{ form.guests|as_crispy_field }}
+
+        </table>
+        <button type="submit" class="btn btn-warning text-dark submit-button" style="margin-top: 10px;">Change
+            Booking</button>
+
+    </form>
+
+</div>
+
+
+{% endblock %}
