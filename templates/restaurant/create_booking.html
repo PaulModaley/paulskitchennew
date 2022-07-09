@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+
+<div class="container d-flex justify-content-center">
+  <h1 style="margin-top: 40px; font-size: 55px;">Make A Booking</h1>
+</div>
+
+<p style="text-align: center;">We welcome walk-in customers but to guarantee your table, booking is required. </p>
+
+
+<div class="container booking-form">
+
+    <form method="POST" action="/create_booking/" class="center-block">
+      {% csrf_token %}
+      <table>
+      <p>Booking For: {{ user.get_username }}</p>
+
+      {{ form.date|as_crispy_field }}
+      
+      {{ form.time|as_crispy_field }}
+
+      {{ form.guests|as_crispy_field }}
+
+      </table>
+      <button type="submit" class="btn btn-warning text-dark submit-button cta" style="margin-top: 10px;">Make Booking</button>
+
+    </form>
+    
+  </div>
+</div>
+
+
+
+
+{% endblock %}
