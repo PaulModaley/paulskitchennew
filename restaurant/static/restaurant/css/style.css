@@ -101,7 +101,7 @@ body > footer {
   background-color: #262626;
   background-image: url(https://res.cloudinary.com/p-modaley/image/upload/v1642954436/Untitled_design_85_t3bpih.png); 
   padding: 40px;
-  background-size: cover;
+  background-size: auto;
 }
 
 .profile-form {
