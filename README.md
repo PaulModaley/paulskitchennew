@@ -10,14 +10,7 @@ A live version of the website can be found here: https://paulskitchen.herokuapp.
 
 ## [Table of Contents](#table-of-contents)
 
-[User Experience (UX)](#user-experience-ux)
-
-### Strategy
-### Project Goals
-### User Stories
-### Structure
-### Skeleton
-### Surface
+[User Experience (UX)](#ux)
 
 [Features](#features)
 
@@ -27,11 +20,11 @@ A live version of the website can be found here: https://paulskitchen.herokuapp.
 
 [Development Cycle](#development-cycle)
 
-Deployment
+[Deployment](#deployment)
 
-End Product
+[End Product](#end-product)
 
-Known Bugs
+[Known Bugs](#known-bugs)
 
 [Credits](#credits)
 
