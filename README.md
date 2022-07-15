@@ -157,6 +157,9 @@ To ensure mobile responsivity, I made extensive use of Google Developer Tool's '
 
 Error identification and HTML validation was conducted using [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) while [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) enabled me to identify errors within my project's CSS. Python testing was conducted using [Pep8 Online](http://pep8online.com/).
 
+All Python code passed validation with no errors.
+
+
 #### **Testing Process**
 
 The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Mainly, manual testing was employed.
