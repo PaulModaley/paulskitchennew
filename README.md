@@ -8,16 +8,16 @@ Welcome to my project which is a website for a fictional restaurant called "Paul
 
 A live version of the website can be found here: https://paulskitchen.herokuapp.com/
 
-## [Table of Contents](#1-ux)
+## [Table of Contents](#table-of-contents)
 
 [User Experience (UX)](#user-experience-ux)
 
-  -  1.1. Strategy
-    - Project Goals
-    - User Stories
-  -  1.2 Structure
-  -  1.3 Skeleton
-  -  1.4 Surface
+### Strategy
+### Project Goals
+### User Stories
+### Structure
+### Skeleton
+### Surface
 
 [Features](#features)
 
