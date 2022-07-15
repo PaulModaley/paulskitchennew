@@ -221,7 +221,7 @@ The site may be viewed via this link: https://paulskitchen.herokuapp.com/
 * My wife and family for their support and encouragement
 * To my course mentor, Marcel Mulder, his dedication and commitment to my learning
 * To Code Institute students and tutors for answering questions when needed
-* To my colleague, Mahmudul Alam, for answering questions and for giving advice and feedback when needed
+* To my colleague, Mahmudul Alam, for answering questions and for giving advice and feedback when needed, particularly around using JavaScript for success messages
 
 #### Code
 
