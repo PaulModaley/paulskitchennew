@@ -10,30 +10,30 @@ A live version of the website can be found here: https://paulskitchen.herokuapp.
 
 ## [Table of Contents](#1-ux)
 
-- 1. [User Experience (UX)](#user-experience-ux)
+[User Experience (UX)](#user-experience-ux)
 
   -  1.1. Strategy
-     - Project Goals
-       - User Stories
+    - Project Goals
+    - User Stories
   -  1.2 Structure
   -  1.3 Skeleton
   -  1.4 Surface
 
-- 2. [Features](#features)
+[Features](#features)
 
-- 3. [Technologies Used](#technologies-used)
+[Technologies Used](#technologies-used)
 
-- 4. [Testing](#testing)
+[Testing](#testing)
 
-- 5. [Development Cycle](#development-cycle)
+[Development Cycle](#development-cycle)
 
-- 6. Deployment
+Deployment
 
-- 7. End Product
+End Product
 
-- 8. Known Bugs
+Known Bugs
 
-- 9. [Credits](#credits)
+[Credits](#credits)
 
 
 ## 1.UX
