@@ -159,7 +159,7 @@ Error identification and HTML validation was conducted using [W3C Markup](https:
 
 #### **Testing Process**
 
-The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Mainly, manual testing was employed. 
+The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Mainly, manual testing was employed.
 
 ## Development Cycle
 
