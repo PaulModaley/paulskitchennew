@@ -216,12 +216,20 @@ The site may be viewed via this link: https://paulskitchen.herokuapp.com/
 
 [Back to top](#table-of-contents)
 
+#### Acknowledgements
+
+* My wife and family for their support and encouragement
+* To my course mentor, Marcel Mulder, his dedication and commitment to my learning
+* To Code Institute students and tutors for answering questions when needed
+* To my colleague, Mahmudul Alam, for answering questions and for giving advice and feedback when needed
+
 #### Code
 
 - The responsive navigation bar came from [W3 Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 - Fonts came from [Google Fonts](https://fonts.google.com/)
 - Icons in the footer came from [https://fontawesome.com/](https://fontawesome.com/)
 - Code for hover effect on demo button came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+- Stack Overflow was frequently referenced for solutions to problems and coding best practices
 
 #### Content
 
