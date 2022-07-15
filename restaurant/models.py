@@ -28,6 +28,8 @@ guest_choices = (
 )
 
 # Create your models here.
+
+
 class Booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
     date = models.DateField(null=True)
