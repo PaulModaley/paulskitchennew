@@ -1,10 +1,15 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends 'base.html' %}
 
 {% block content %}
-<h1>Confirmation</h1>
-
-<p>Your booking has been cancelled.</p>
 
 
-{% endblock %}
+<div class="py-5">
+    <div class="container" style="text-align:center;">
+        <h2>Your cancellation is complete.</h1>
+            <form method="GET" action="/manage_bookings">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-warning text-dark cta">Manage more bookings</button>
+            </form>
+    </div>
+</div>
+{% endblock content %}
