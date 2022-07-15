@@ -36,13 +36,13 @@ Known Bugs
 [Credits](#credits)
 
 
-## 1.UX
+## UX
 
 [Back to top](#table-of-contents)
 
 This website aims to enable people seeking information about Paul's Kitchen to view the menu, contact the restaurant, register with the restaurant, and make, edit and delete bookings. 
 
-### 1.1 Strategy
+### Strategy
 
 [Back to top](#table-of-contents)
 
@@ -88,7 +88,7 @@ I generated designs for the website using wireframes in Balsamiq.
 
 The colour schemes and typography used are consistent with my vision for the brand, Paul's Kitchen.
 
-## 2. Features
+## Features
 
 [Back to top](#table-of-contents)
 
@@ -122,7 +122,7 @@ Users can make bookings provided they are logged in to the site. To make a booki
 
 Users wishing to amend or cancel their booking(s) can do so via the 'manage bookings' page by typing or clicking in the form fields and selecting the 'cancel' or 'edit' icon as desired.
 
-### 3. Technologies Used
+### Technologies Used
 
 [Back to top](#table-of-contents)
 
@@ -148,7 +148,7 @@ The following is a non-exhaustive list of the technologies employed in the creat
 - Cloudinary for media storage
 - Black to format Python Code
 
-### 4. Testing
+### Testing
 
 [Back to top](#table-of-contents)
 
@@ -168,7 +168,7 @@ Error identification and HTML validation was conducted using [W3C Markup](https:
 
 The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Mainly, manual testing was employed. 
 
-## 5. Development Cycle
+## Development Cycle
 
 [Back to top](#table-of-contents)
 
@@ -178,7 +178,7 @@ However, there were a few changes made during the development cycle which were n
 
 Throughout the project I used the GitHub projects as my project management tool which enabled me to create user stories and build website functionality according to these. Completed tasks (user stories) would be moved to 'done' once completed to a satisfactory standard.
 
-## 6. Deployment
+## Deployment
 
 - Process for local deployment:
 
@@ -197,7 +197,7 @@ Throughout the project I used the GitHub projects as my project management tool 
   4. In Heroku, remove the DISABLE_COLLECTSTATIC config var.
   5. In the deploy tab, go to the manual deploy sections and click deploy branch.
 
-## 7. End Product
+## End Product
 
 [Back to top](#table-of-contents)
 
@@ -205,13 +205,13 @@ Throughout the project I used the GitHub projects as my project management tool 
 
 The site may be viewed via this link: https://paulskitchen.herokuapp.com/
 
-## 8. Known Bugs
+## Known Bugs
 
 [Back to top](#table-of-contents)
 
 - There are no known bugs.
 
-## 9. Credits
+## Credits
 
 [Back to top](#table-of-contents)
 
