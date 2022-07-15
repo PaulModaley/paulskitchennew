@@ -1,108 +1,228 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Paul's Kitchen
 
-Welcome PaulModaley,
+## Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to my project which is a website for a fictional restaurant called "Paul's Kitchen".
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![](https://res.cloudinary.com/p-modaley/image/upload/v1643129983/paul_s_kitchen_end_product_dezz07.jpg)
 
-## Gitpod Reminders
+A live version of the website can be found here: https://paulskitchen.herokuapp.com/
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## [Table of Contents](#1-ux)
 
-`python3 -m http.server`
+- 1. [UX](##1.UX)
 
-A blue button should appear to click: _Make Public_,
+  -  1.1. Strategy
+     - Project Goals
+       - User Stories
+  -  1.2 Structure
+  -  1.3 Skeleton
+  -  1.4 Surface
 
-Another blue button should appear to click: _Open Browser_.
+- 2. [Features](##2. Features)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- 3. Technologies Used
 
-A blue button should appear to click: _Make Public_,
+- 4. Testing
 
-Another blue button should appear to click: _Open Browser_.
+- 5. Development Cycle
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- 6. Deployment
 
-To log into the Heroku toolbelt CLI:
+- 7. End Product
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- 8. Known Bugs
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- 9. Credits
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## 1.UX
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Back to top](#table-of-contents)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+This website aims to enable people seeking information about Paul's Kitchen to view the menu, contact the restaurant, register with the restaurant, and make, edit and delete bookings. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### 1.1 Strategy
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[Back to top](#table-of-contents)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Project Goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The goals of the website are to:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+1) Enable customer to make, edit and delete bookings
+2) Register their details with the restaurant by creating a profile and login credentials.
+3) Enable an admin to manage bookings and customer details in the system
+4) Showcase the restaurant's style and its menu
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### User Stories:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a **customer**, I can **make table booking** so that **I can reserve a table for a particular number of diners for a specified date and time.**
+- As a **customer**, I can **register my details with the restaurant** so that **I can login and use my profile to make bookings.**
+- As a **customer**, I can **manage bookings** so that **I can add or remove diners or change the date/time of my booking.**
+- As a **customer**, I can **contact the restaurant** so that **I can provide the venue with additional information or make a query.*
+- As an **administrator**, I can **manage customers' bookings** so that **I can add/remove diners and change the date/time of booking**
+- As an **administrator**, I can **edit customer accounts** so that **I can update and/or delete customer details.**
+- As a **customer**, I can **read an about the venue** so that **I can learn more about the restaurant's style and menu.**
+- As a **customer**, I can **view the restaurant's menu** so that **I can consider what to order ahead of visiting the venue.**
+- As a **customer*, I can **connect with the restaurant on social media** so that **I can suggest the venue to social media contacts and ask questions.**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Structure
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The site will feature distinct pages, including home, menu, login, make a booking, and edit bookings. Users may navigate between the sections via the main navigation situated at the top of the page. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Responsive on all devices sizes.
+- Navigation bar changes to a 'hamburger' style menu (top centre of screen) on smaller screens
+- Footer at the bottom of the page links to social media pages.
+- All elements will be comply with Paul's Kitchen's (fictional) branding, including colours, font size and typography.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Skeleton
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+I generated designs for the website using wireframes in Balsamiq. 
 
-------
+**Wire Frames**
 
-## FAQ about the uptime script
+![](https://res.cloudinary.com/p-modaley/image/upload/v1643128938/Paul_s_Kitchen_wireframe_jmf2up.png)
 
-**Why have you added this script?**
+#### Surface
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The colour schemes and typography used are consistent with my vision for the brand, Paul's Kitchen.
 
-**How will this affect me?**
+## 2. Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+[Back to top](#table-of-contents)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Single page design:**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- Navigation bar will be placed at the top of the screen to enable easy access for the user. It collapses to a hamburger-style menu on smaller screens. As a sticky navigation bar, it will remain at the top of the screen as the user scrolls.
+- The company logo will also feature at the top of the page.
+- In the footer, users may access links to social media pages.
 
-**So….?**
+**Pages:**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The site design is comprised of several pages. Which of the sections are accessible via the navigation bar depends on whether or not the user is logged in. 
 
-**Can I opt out?**
+<u>Home</u>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The home page features images of the types of food served by the restaurant. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<u>Menu</u>
 
-**Anything more?**
+A hamburger style menu is employed to facilitate browsing on various screen sizes. The hamburger icon expands or collapses when it is clicked.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+<u>Login</u>
 
----
+Here, users will be prompted to enter login in details or to register. If users are already logged in, a 'success' message will appear and the users' account information will be displayed on a profile page.
 
-Happy coding!
+<u>Make A Booking</u>
+
+Users can make bookings provided they are logged in to the site. To make a booking, users must supply their preferred date and time as well as the number of guests attending.
+
+<u>Manage Booking</u>
+
+Users wishing to amend or cancel their booking(s) can do so via the 'manage bookings' page by typing or clicking in the form fields and selecting the 'cancel' or 'edit' icon as desired.
+
+### 3. Technologies Used
+
+[Back to top](#table-of-contents)
+
+The following is a non-exhaustive list of the technologies employed in the creation of the website:
+
+- HTML5 
+- Python
+- Bootstrap
+- CSS3
+- JavaScript
+- Chrome Developer Tools (for debugging and testing)
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwt8uGBhBAEiwAayu_9Re_SESOK5WbZcH6AhP1IRIE_hxODw8EmSBYSkPiRQ41fvAERHT38hoCClQQAvD_BwE) (for developing wireframes during the initial design process)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [GitHub](https://github.com/) (project repository)
+- [GitPod](https://gitpod.io) (code line interface)
+- [Typora](https://typora.io/) (for creating this readme file)
+- [W3C Validator tools](https://validator.w3.org/) (for validating HTML and CSS code and error checking)
+- [Pep8 Online](http://pep8online.com/) (for validating Python code and error checking)
+- Heroku for app deployment
+- Django for building the backend, including allauth for user authentication
+- Postgresql for the database
+- Cloudinary for media storage
+- Black to format Python Code
+
+### 4. Testing
+
+[Back to top](#table-of-contents)
+
+**Google Developer Tools**
+
+During the process of coding the website, I used Google Developer Tools to view the affects of changes to the code. Occasionally, I would alter code within Google Developer Tools to observe changes before deciding whether or not to incorporate these changes within the code in GitPod. 
+
+**Responsivity and Mobile-first Approach**
+
+To ensure mobile responsivity, I made extensive use of Google Developer Tool's 'responsive' options, viewing my site on a range of devices, including iPhone 5/6/7/X. Bootstrap also contributed significantly to the website's mobile responsivity.
+
+**Validator Tools**
+
+Error identification and HTML validation was conducted using [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) while [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) enabled me to identify errors within my project's CSS. Python testing was conducted using [Pep8 Online](http://pep8online.com/).
+
+#### **Testing Process**
+
+The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Mainly, manual testing was employed. 
+
+## 5. Development Cycle
+
+[Back to top](#table-of-contents)
+
+Having established a clear vision for the project as illustrated through wireframes, the development cycle was fairly linear without a great deal of deviation from the original plan. 
+
+However, there were a few changes made during the development cycle which were not accounted for during the planning process.  The changes were made following discussions with other developers who offered constructive criticism of the site during its development. 
+
+Throughout the project I used the GitHub projects as my project management tool which enabled me to create user stories and build website functionality according to these. Completed tasks (user stories) would be moved to 'done' once completed to a satisfactory standard.
+
+## 6. Deployment
+
+- Process for local deployment:
+
+  1. Create a GitHub repository.
+  2. Clone the repository on GitPod.
+  3. Open the terminal within GitPod.
+  4. Enter "python3 manage.py runserver into the terminal.
+  5. Go to local host address in web browser.
+  6. Check that changes are reflected in browser.
+
+  Process for the final Heroku deployment:
+
+  1. Uncomment the PostgreSQL databse from my settings.py file.
+  2. Set debug = False in my settings.py file.
+  3. Commit and push all files to GitHub
+  4. In Heroku, remove the DISABLE_COLLECTSTATIC config var.
+  5. In the deploy tab, go to the manual deploy sections and click deploy branch.
+
+## 7. End Product
+
+[Back to top](#table-of-contents)
+
+![](https://res.cloudinary.com/p-modaley/image/upload/v1643129983/paul_s_kitchen_end_product_dezz07.jpg)
+
+The site may be viewed via this link: https://paulskitchen.herokuapp.com/
+
+## 8. Known Bugs
+
+[Back to top](#table-of-contents)
+
+- There are no known bugs.
+
+## 9. Credits
+
+[Back to top](#table-of-contents)
+
+#### Code
+
+- The responsive navigation bar came from [W3 Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+- Fonts came from [Google Fonts](https://fonts.google.com/)
+- Icons in the footer came from [https://fontawesome.com/](https://fontawesome.com/)
+- Code for hover effect on demo button came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+
+#### Content
+
+- Images came from [Getty Images](gettyimages.co.uk) and W3Layouts
