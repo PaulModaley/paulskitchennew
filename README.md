@@ -4,7 +4,7 @@
 
 Welcome to my project which is a website for a fictional restaurant called "Paul's Kitchen".
 
-![](https://res.cloudinary.com/p-modaley/image/upload/v1643129983/paul_s_kitchen_end_product_dezz07.jpg)
+![](https://res.cloudinary.com/p-modaley/image/upload/v1657983709/paulskitchen_finished_product_feeijy.png)
 
 A live version of the website can be found here: https://paulskitchen.herokuapp.com/
 
@@ -153,6 +153,9 @@ During the process of coding the website, I used Google Developer Tools to view 
 
 To ensure mobile responsivity, I made extensive use of Google Developer Tool's 'responsive' options, viewing my site on a range of devices, including iPhone 5/6/7/X. Bootstrap also contributed significantly to the website's mobile responsivity.
 
+Google's mobile-friendly test confirms that my site is mobile friendly.
+![](https://res.cloudinary.com/p-modaley/image/upload/v1657983041/google_responsivity_check_kea2d9.png)
+
 **Validator Tools**
 
 Error identification and HTML validation was conducted using [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) while [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) enabled me to identify errors within my project's CSS. Python testing was conducted using [Pep8 Online](http://pep8online.com/).
@@ -211,7 +214,8 @@ Throughout the project I used the GitHub projects as my project management tool 
 
 [Back to top](#table-of-contents)
 
-![](https://res.cloudinary.com/p-modaley/image/upload/v1643129983/paul_s_kitchen_end_product_dezz07.jpg)
+![](https://res.cloudinary.com/p-modaley/image/upload/v1657983009/1_uzwpz2.png)
+![](https://res.cloudinary.com/p-modaley/image/upload/v1657983009/2_nykhoe.png)
 
 The site may be viewed via this link: https://paulskitchen.herokuapp.com/
 
