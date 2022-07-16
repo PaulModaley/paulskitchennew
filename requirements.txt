@@ -1,5 +1,5 @@
 asgiref==3.5.0
-backports.zoneinfo==0.2.1
+backports.zoneinfo;python_version<"3.9"
 black==22.6.0
 certifi==2022.5.18.1
 charset-normalizer==2.0.12
@@ -9,7 +9,7 @@ dj-database-url==0.5.0
 dj3-cloudinary-storage==0.0.6
 Django==3.2
 django-allauth==0.50.0
-django-cors-headers==3.11.0
+django-cors-headers==3.11.0g
 django-crispy-forms==1.14.0
 django-heroku==0.3.1
 gunicorn==20.1.0
