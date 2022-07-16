@@ -173,13 +173,23 @@ All Python code passed validation with no errors.
 
 The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Manual testing was employed across all pages as detailed in the tables below.
 
-### All pages
+### All pages and functionality
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no (or minimal) pixelation or stretched images and are responsive on all devices. | PASS
 Responsiveness | Check every element on the page for consistent scalability in mobile, tablet and desktop view.| PASS
 Buttons | Check for correct functionality including completing post and get requests.| PASS
 Forms | Check for forms are handling data correctly by checking Django admin when form is filled.| PASS
+Nav | Check for functionality and scalability on each page.| PASS
+Footer | Check for functionality and scalability on each page, including social media icons.| PASS
+Login status | Check that when user logs in to the site, their logged in status is displayed.| PASS
+Sign up | Check that a user can register and sign up for an account.| PASS
+Sign in | Check that a registered user can login. | PASS
+Create booking | Check that a user can make booking for up to 8 people at a predetermined time slot on a particular date. | PASS
+Manage bookings | Check that a user can edit a booking. | PASS
+Delete bookings | Check that a user can delete a booking. | PASS
+Change email | Check that a user can change the email associated with their account. | PASS
+Contact | Check that a user can submit a query. | PASS
 
 ## Development Cycle
 
