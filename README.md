@@ -168,7 +168,15 @@ All Python code passed validation with no errors.
 
 #### **Testing Process**
 
-The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Mainly, manual testing was employed.
+The site was tested thoroughly for mobile and web responsivity and full CRUD functionality. Manual testing was employed across all pages as detailed in the tables below.
+
+### All pages
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no (or minimal) pixelation or stretched images and are responsive on all devices. | PASS
+Responsiveness | Check every element on the page for consistent scalability in mobile, tablet and desktop view.| PASS
+Buttons | Check for correct functionality including completing post and get requests.| PASS
+Forms | Check for forms are handling data correctly by checking Django admin when form is filled.| PASS
 
 ## Development Cycle
 
