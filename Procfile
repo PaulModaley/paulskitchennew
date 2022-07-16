@@ -1,1 +1,1 @@
-web: gunicorn pauls-kitchen.wsgi
+web: gunicorn paulskitchen.wsgi:application
