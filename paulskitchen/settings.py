@@ -110,7 +110,7 @@ WSGI_APPLICATION = "paulskitchen.wsgi.application"
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('postgres://hqgjzubogduhzz:98d844a7803cc129b8ed8514127f5c7cd452103192052609baedc93234245721@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/d23rd0clsccdpf'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
     DATABASES = {
